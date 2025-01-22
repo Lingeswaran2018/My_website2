@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingeswaran's Academic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p align="right">Engineering Undergraduate</p>
+            <h1 align="right">Hi, I'm <span>Lingeswaran</span><br>From Sri Lanka</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Linga_Profile.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate and driven 4th-year undergraduate engineering student at the University of Moratuwa, specializing in machine learning and artificial intelligence. With a strong foundation in embedded systems from my internship experience, I am now channeling my skills toward AI-driven solutions, particularly in voice technology and large language models. I am eager to grow through challenging projects, collaborative environments, and innovative ventures, with a long-term vision of contributing to impactful AI applications and entrepreneurial initiatives.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>English (Professional), Tamil (Native), Sinhala (Intermediate)</li>
+                        <li><span>Machine Learning</span><br> Deep Learning, Natural Language Processing (NLP), Model Fine-tuning, Hugging Face
+                            Transformers, Speech-to-Text, Speech Recognition</li>
+                        <li><span>Programming</span><br> Python (NumPy, Pandas, Matplotlib, Scikit-learn, OpenCV), Java, C++, HTML/CSS/JS, PHP</li>
+                        <li><span> Tools and Frameworks</span><br>  Hugging Face, TensorFlow, PyTorch, Jupyter Notebooks</li>
+
+
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Since 2021</span><br>University of Moratuwa, Faculty of Engineering.</li>
+                        <li><span>2006-2018</span><br>J/Mahajana College, Tellippalai.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    
+                    <ul>
+                        <li><span>Since 2024</span><br> Batch Representative DEpartment Of Electrical Engineering</li>
+                        <li><span>2024</span><br>Trainee Electronic Engineer at Vega Innovations Pvt Ltd</li>
+                        <li><span>2023</span><br>Sasnaka Sanasada Volunteer</li>
+                        <li><span>2023</span><br>MORA EXAMS district coordinator</li>
+                       
+                        
+                    </ul>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2> Tamil Language Voice-to-Text Model </h2>
+                <p>  Fine-tuned the Whisper small model
+                    on the Common Voice 11.0 dataset for Tamil speech-to-text transcription. </p>
+                <a href="https://huggingface.co/Lingalingeswaran/whisper-small-ta">View Model</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Restaurant Scenario Chatbot </h2>
+                <p>Fine-tuned the LLaMA 2 model for a
+                    restaurant scenario chat using a 1000-question answer dataset, applying the LoRA technique. The model is still
+                    being refined to meet the expected accuracy for restaurant-related interactions.</p>
+                <a href="#">Under Development</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2> Real-time Customer Identification System</h2>
+                <p>Developed a real-time YOLOv8 model
+                    for customer identification in a restaurant scenario.</p>
+                <a href="#">Under Development</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Potato Disease Classification</h2>
+                <p> Designed a CNN model to classify potato
+                    diseases from leaf images </p>
+                <a href="#">Under Development</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2> Snake Game</h2>
+                <p>  Developed a classic Snake game using
+                    C++andPlatformIO in VS Code</p>
+                <a href="#">Under Development</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2> Customer Feedback Form</h2>
+                <p> Developed a small webpage to
+                    collect customer feedback for a company, using HTML, CSS, Js,SQL and PHP.
+                   </p>
+                <a href="#">Under Development</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2> Real-time Color Detection System</h2>
+                <p> Developed a real-time system to detect
+                    and track objects of a selected color with a custom color picker and HSV-based dynamic thresholding.
+                   </p>
+                <a href="#">Under Development</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------portfolio------------ -->
+<!-- <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/SKAnniversary.jpg">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>Wedding Anniversary</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Wedding_Frame_RojeePriyanka.jpg">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>Wedding Frame</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Family_Memories.jpg">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>Family_Frame</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div> -->
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> lingalingeswaran99@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 0774157029</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+               
+                <a href="images/Lingeswaran_Sathiyalokeswaran.pdf" download class="btn btn2" >Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="copyright">
+        <p>Copyright © Kevin. Made wtih <i class="fas fa-heart"></i> by <a href="https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA?sub_confirmation=1">Easy Tutorials</a></p>
+    </div> -->
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
